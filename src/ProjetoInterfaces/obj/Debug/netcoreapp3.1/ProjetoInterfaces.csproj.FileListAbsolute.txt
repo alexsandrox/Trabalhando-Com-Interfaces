@@ -1,0 +1,9 @@
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\obj\Debug\netcoreapp3.1\ProjetoInterfaces.csprojAssemblyReference.cache
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\obj\Debug\netcoreapp3.1\ProjetoInterfaces.csproj.CoreCompileInputs.cache
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\obj\Debug\netcoreapp3.1\ProjetoInterfaces.AssemblyInfoInputs.cache
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\obj\Debug\netcoreapp3.1\ProjetoInterfaces.AssemblyInfo.cs
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\bin\Debug\netcoreapp3.1\ProjetoInterfaces.deps.json
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\bin\Debug\netcoreapp3.1\ProjetoInterfaces.dll
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\bin\Debug\netcoreapp3.1\ProjetoInterfaces.pdb
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\obj\Debug\netcoreapp3.1\ProjetoInterfaces.dll
+D:\Dev\Projects\Trabalhando-Com-Interfaces\src\ProjetoInterfaces\obj\Debug\netcoreapp3.1\ProjetoInterfaces.pdb

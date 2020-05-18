@@ -20,17 +20,6 @@ namespace ProjetoInterfaces.Interfaces
          *
          * return: void
          */
-        string Imprimir(InterfaceDocumentoImprimivel document);
-        
-        /*
-         * Impressora que assina esse contrato sabe imprimir um documento imprimível e uma mensagem de texto
-         *
-         * param: DocumentoImprimivel document, string Message
-         *
-         * return: InterfaceDocumentoImprimivel document
-         */
-        InterfaceDocumentoImprimivel Imprimir(InterfaceDocumentoImprimivel document, string Message);
-
-
+        void Imprimir(InterfaceDocumentoImprimivel document);
     }
 }

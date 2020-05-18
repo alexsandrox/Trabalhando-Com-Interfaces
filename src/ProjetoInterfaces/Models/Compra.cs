@@ -81,7 +81,7 @@ namespace ProjetoInterfaces.Models
          */
         public string Cabecalho()
         {
-            return NomeDoCliente + "                    " + DataEHoraDaCompra.ToString("/DD/MM/YYYY - HH:MM:SS");
+            return NomeDoCliente + "            " + DataEHoraDaCompra.ToString("dd/MM/yyyy - HH:MM:ss");
         }
 
         /*
@@ -94,7 +94,7 @@ namespace ProjetoInterfaces.Models
          */
         public string CorpoDaPagina()
         {
-            return NomeDoProduto + "                    " + GetValorTotal();
+            return NomeDoProduto + "                         " + GetValorTotal();
         }
 
         /*

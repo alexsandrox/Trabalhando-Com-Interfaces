@@ -56,16 +56,14 @@ namespace ProjetoInterfaces.Models
          *
          * return: string FecharCompra
          */         
-        public string FecharCompra(Compra compra, Cartao cartao)
+        public void FecharCompra(Compra compra, Cartao cartao)
         {
             // Verificar com a operadora de cartão se a compra está ou não Autorizada
             bool autorizado = _operadora.AutorizarCompra(compra, cartao);
 
             // Compra assina o contrato InterfaceDocumentoImprimivel
-            if(autorizado)
-                return _impressora.Imprimir(compra);
-            
-            return "Compra não autorizada";
+            if (autorizado)
+                _impressora.Imprimir(compra);
         }
     }
 }

@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ProjetoInterfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ProjetoInterfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ProjetoInterfaces.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ProjetoInterfaces/1.0.0": {
+      "type": "project",
+      "path": "../ProjetoInterfaces/ProjetoInterfaces.csproj",
+      "msbuildProject": "../ProjetoInterfaces/ProjetoInterfaces.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ProjetoInterfaces >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\avaa1\\.nuget\\packages\\": {},
@@ -15,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoInterfaces\\ProjetoInterfaces.csproj",
-      "projectName": "ProjetoInterfaces",
-      "projectPath": "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoInterfaces\\ProjetoInterfaces.csproj",
+      "projectUniqueName": "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoConsoleApp\\ProjetoConsoleApp.csproj",
+      "projectName": "ProjetoConsoleApp",
+      "projectPath": "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoConsoleApp\\ProjetoConsoleApp.csproj",
       "packagesPath": "C:\\Users\\avaa1\\.nuget\\packages\\",
-      "outputPath": "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoInterfaces\\obj\\",
+      "outputPath": "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -39,7 +58,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoInterfaces\\ProjetoInterfaces.csproj": {
+              "projectPath": "D:\\Dev\\Projects\\Trabalhando-Com-Interfaces\\src\\ProjetoInterfaces\\ProjetoInterfaces.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
