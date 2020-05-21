@@ -11,7 +11,7 @@ namespace ProjetoConsoleApp
             var impressora = new ImpressoraEpson();
 
             var cartao = new Cartao("Alexsandro V A Andrade", "3456");
-            var compra = new Compra(27.99, "Playstation 4 PRO", "Alexsandro Andrade");
+            var compra = new Compra(1899.99, "Playstation 4 PRO", "Alexsandro Andrade");
             var checkout = new Checkout(operadoraDeCartao, impressora);
             checkout.FecharCompra(compra, cartao);
 
